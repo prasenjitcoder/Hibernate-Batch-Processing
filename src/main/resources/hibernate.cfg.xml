@@ -12,7 +12,7 @@
 		<property name="hibernate.connection.password"></property>
 		<property name="hibernate.connection.url">jdbc:hsqldb:mem:howtodoinjava</property>
 		<property name="hibernate.hbm2ddl.auto">create</property>
-	
+		<property name="hibernate.jdbc.batch_size">50</property>
 	
 		<mapping class="com.mahato.hibernate.User" />
 		
